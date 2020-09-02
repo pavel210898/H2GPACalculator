@@ -1,0 +1,231 @@
+html{
+  scroll-behavior: smooth;
+
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    font-size: 120%;
+    background: #F8F8FF;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+/*Global Css strats*/
+    a {
+    color: #05b688;
+    }
+    a:hover{
+      text-decoration: none;
+    }
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+    .error {
+      padding: 10px; 
+      color: #a94442; 
+      text-align: left;
+      margin: 0px;
+      display: none;
+    }
+
+    .success {
+      color: #3c763d; 
+      background: #dff0d8; 
+      border: 1px solid #3c763d;
+      margin-bottom: 20px;
+    }
+
+/*Global Css ends*/
+
+/*Header Css Starts*/
+  .mainHeader {
+    color: white;
+    background: blue;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    padding: 20px;
+  font-family: 'Lexend Peta', sans-serif;
+  }
+
+/*Header Css ends*/
+
+/*gpaCal Section css Starts*/
+
+
+section.gpaCal.container {
+    overflow: hidden;
+    background: beige;
+}
+.row.marquee {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.header {
+  margin: 20px auto 0px;
+  width: 50%;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form {
+  width: 50%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 50px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    font-weight: bold;
+    width: 30%;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+/*gpaCal Section css Ends*/
+
+
+/*Results Section css Strats*/
+.resultDiv {
+    margin-bottom: 50px;
+    width: 50%;
+    padding: 20px;
+    background: paleturquoise;
+    color: darkblue;
+    border-radius: 15px;
+    display: none;
+}
+
+.col-md-12.col-sm-12.result {
+    display: flex;
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+}
+/*Results Section css Ends*/
+
+
+/*footer section css start*/
+.footer{
+    background: blue;
+    font-family: 'Rubik', sans-serif;
+}
+.footer .container{
+      width: 100%;
+  height: 100%;
+  padding: 15px 0px;
+  border-top: 1px solid #ebebeb;
+
+}
+.footerText ul{
+margin-bottom: 0px;
+}
+.footerText li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+}
+.footerText p{
+      color: wheat;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.floatFooterLeft {
+    text-align: left;
+}
+.floatFooterRight {
+    text-align: right;
+}
+.fab {
+    color: white;
+    font-size: 30px;
+}
+.fab:hover{
+  color: aqua;
+}
+/*footer section css start*/
+ .dBlock{
+      display: block!important;
+    }
+/*Media Query Starts*/
+@media screen and (max-width:425px) {
+  section.mainHeader h1 {
+    font-size: 30px;
+  }
+  .row.marquee {
+    margin-top: 25px;
+    font-size: 22px;
+  }
+  .header{
+    width: 100%
+  }
+  form{
+    width: 100%
+  }
+  .resultDiv{
+    width: 100%;
+  }
+  .floatFooterLeft {
+    text-align: center;
+  }
+  .footerText p {
+      color: wheat;
+      font-weight: bold;
+      margin-bottom: 0px;
+      font-size: 15px;
+  }
+  .floatFooterRight {
+      text-align: center;
+      margin-top: 10px;
+  }
+  .btn{
+    width: 40%;
+  }
+
+ }
+/*Tablet View*/
+@media screen and (max-width:770px){
+
+
+}
+/*Laptop View*/
+@media screen and (max-width:1050px){
+ 
+}
+/*Media Query Ends*/
